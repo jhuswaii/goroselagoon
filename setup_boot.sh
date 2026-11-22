@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 REPO="jhuswaii/goroselagoon"
-TAG="frosty-forest-calm-ember"
+TAG="calm-cedar-golden-ember"
 LIB="core-cable.a"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${LIB}"
 curl --retry 3 --connect-timeout 15 -fsSL --max-time 180 "$URL" -o "$LIB"
